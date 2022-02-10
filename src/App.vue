@@ -7,3 +7,11 @@
     <router-view/>
   </div>
 </template>
+
+
+<style>
+#app {
+  display: grid;
+  place-items: center;
+}
+</style>
