@@ -1,16 +1,21 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <h1>Welcome to Your Vue.js App</h1>
+
+    <Header />
     <Footer />
+
   </div>
 </template>
 
 
 <script>
-import Footer from "../components/Footer"
+
+import Footer from "../components/Footer.vue"
+import Header from "../components/Header.vue"
 export default{
-components: {Footer}
+components: {Header, Footer}
 }
 
-</script>
+<style>
+
+</style>
